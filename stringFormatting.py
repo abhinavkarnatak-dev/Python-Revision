@@ -12,3 +12,5 @@ print("Pi is approximately {:.2f}".format(3.14159))  # prints Pi is approximatel
 print("Hello, {name}! You have {count} messages.".format(name="Alice", count=5))  # prints Hello, Alice! You have 5 messages.
 pi = 3.14159
 print(f"Rounded pi: {pi:.3f}")  # prints Rounded pi: 3.142
+print("User: %(user)s" % {"user": "Bob"})  # prints User: Bob
+print(f"{1000000:,}")  # prints 1,000,000

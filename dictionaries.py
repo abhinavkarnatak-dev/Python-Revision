@@ -1,7 +1,7 @@
 # Example of dictionaries in Python
 
 my_dict = {
-    'name': 'Abhinav',
+    'name': 'Harry',
     'age': 25,
     'city': 'New York'
 }
